@@ -48,6 +48,13 @@ $ pip install numpy
 # $ conda install numpy
 ```
 
+Pandas
+
+```
+$ pip install pandas
+# $ conda install pandas
+```
+
 Matplotlib
 
 ```
