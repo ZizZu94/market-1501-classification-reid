@@ -2,7 +2,7 @@
 
 In this assignment, we explored the use of neural
 networks to solve two common computer vision tasks using
-the PyTorch framework. We had given a video-surveillance
+the `PyTorch` framework. We had given a video-surveillance
 dataset containing images of multiple persons each of which
 was captured multiple times by different cameras along with a
 set of annotations that specify attributes of each person such
