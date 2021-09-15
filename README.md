@@ -18,7 +18,9 @@ of images.
 
 The dataset used for this project is a version
 of the Market-1501 person re-identification dataset.
+
 ![alt text](https://github.com/ZizZu94/market-1501-classification-reid/blob/main/img/dataset.png?raw=true)
+
 Each image in the dataset corresponds to a tight crop of a pedestrian
 and the same person appears multiple times in the dataset.
 Moreover, while the differences between some persons are
@@ -67,3 +69,23 @@ Matplotlib
 $ pip install matplotlib
 # $ conda install matplotlib
 ```
+
+## Classification task
+
+As the first task, we built a
+multi-class classification model. We split the images in the
+train directory into a train and a validation dataset and used
+them to train a model that given the image of a pedestrian
+predicts the following attributes:
+
+![alt text](https://github.com/ZizZu94/market-1501-classification-reid/blob/main/img/dataset-2.png?raw=true)
+
+## ReIdentification task
+
+In the second task of our project, you built
+a person re-identification model to retrieve from the test directory
+all the images depicting the same person identity appearing
+in a given query image. More formally, for each image
+in the queries directory, we produced an ordered list of images
+from the test directory that we believe correspond to
+the same person identity depicted in the query image.
