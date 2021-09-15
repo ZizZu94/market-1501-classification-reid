@@ -18,6 +18,12 @@ of images.
 
 The dataset used for this project is a version
 of the Market-1501 person re-identification dataset.
+![alt text](https://github.com/ZizZu94/market-1501-classification-reid/blob/main/img/dataset.png?raw=true)
+Each image in the dataset corresponds to a tight crop of a pedestrian
+and the same person appears multiple times in the dataset.
+Moreover, while the differences between some persons are
+marked and easy to spot, some other cases are difficult to
+distinguish.
 
 ## Dependencies
 
