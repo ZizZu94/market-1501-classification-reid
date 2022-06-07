@@ -73,19 +73,15 @@ $ pip install matplotlib
 ## Classification task
 
 As the first task, we built a
-multi-class classification model. We split the images in the
-train directory into a train and a validation dataset and used
-them to train a model that given the image of a pedestrian
-predicts the following attributes:
+multi-class classification model. We split the training images into two sub folders: training and validation. Then we used
+them to train our model, which can predict different attributes given as input an image of a random pedestrian taken from the test folder. The predicted attributes are the following:
 
 ![alt text](https://github.com/ZizZu94/market-1501-classification-reid/blob/main/img/dataset-2.png?raw=true)
 
+[Classification notebook](https://github.com/ZizZu94/market-1501-classification-reid/blob/main/source-code/1_classification_dl_project.ipynb)
+
 ## ReIdentification task
 
-In the second task of our project, you built
-a person re-identification model to retrieve from the test directory
-all the images depicting the same person identity appearing
-in a given query image. More formally, for each image
-in the queries directory, we produced an ordered list of images
-from the test directory that we believe correspond to
-the same person identity depicted in the query image.
+The second task of our project was quite challenging, we had to build a re-identification model, which can identify all the images of the same person, despite they were taken from different angles, different locations, different scales, different zoom settings and also captured with a different type of camera. The idea is, for each image in the queries directory, we produced an ordered list of images from the test directory that we believe correspond to the same person identity depicted in the query image.
+
+[ReIdentification notebook](https://github.com/ZizZu94/market-1501-classification-reid/blob/main/source-code/2_2_reID_dl_project.ipynb)
